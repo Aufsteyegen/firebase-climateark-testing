@@ -47,7 +47,6 @@ const db = firebase.firestore()
 
 let thingsRef;
 let unsubscribe;
-
 auth.onAuthStateChanged(user => {
     if (user) {
         // Database Reference
